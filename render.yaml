@@ -3,6 +3,6 @@ services:
     type: web
     env: java
     buildCommand: chmod +x ./mvnw && ./mvnw clean install
-    startCommand: java -jar target/your-app.jar
+    startCommand: java -jar target/AuthenticatedEmployee.jar
     repo: https://github.com/dk-test-code/servesyncbackend
     branch: main
