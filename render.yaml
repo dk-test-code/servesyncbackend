@@ -1,0 +1,8 @@
+services:
+  - name: servesyncbackend
+    type: web
+    env: java
+    buildCommand: chmod +x ./mvnw && ./mvnw clean install
+    startCommand: java -jar target/your-app.jar
+    repo: https://github.com/dk-test-code/servesyncbackend
+    branch: main
